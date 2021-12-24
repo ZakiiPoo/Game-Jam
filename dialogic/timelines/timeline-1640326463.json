@@ -1,0 +1,112 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh...no no no. This is not good. Not good at all"
+		},
+		{
+			"action": "join",
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhhh..."
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh...the name's Santa. And you are?"
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Umm Arthur..."
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well listen Aurthur I'm in quite the pickle here. Do you think you can help me out?"
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhh...sure?"
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awww thank you so much. You see my sled broke down so I ended up crashing here."
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So do you need me to help repair your sled?"
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh no no. I can do that myself. When I was falling from the sky my presents scattered as well. I just need you to go run and collect them."
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How many are there?"
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "20. See that doesn't sound so bad. Now run along and get me my presents while I fix this peice of junk."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"change_scene": "res://Scenes/World.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1640326463.json",
+		"name": "santa first"
+	}
+}

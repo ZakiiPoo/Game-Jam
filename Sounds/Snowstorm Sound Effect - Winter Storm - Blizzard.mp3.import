@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Snowstorm Sound Effect - Winter Storm - Blizzard.mp3-4dac2498a5c81b466aec607b777c997a.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Snowstorm Sound Effect - Winter Storm - Blizzard.mp3"
+dest_files=[ "res://.import/Snowstorm Sound Effect - Winter Storm - Blizzard.mp3-4dac2498a5c81b466aec607b777c997a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

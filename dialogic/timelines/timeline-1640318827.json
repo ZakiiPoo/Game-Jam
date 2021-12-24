@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was snowy Christmas eve and Arthur started out of his window. Gazing up into the stars. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He didn't exactly know what he was looking for...but it felt as something was calling for his attention."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "SUDDENLY...Arthur saw someting whish past the sky and fall near the snowy hills."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Without a second thought, Arthur grabed his jacket and headed out in the cold to investagate."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He was quite lucky that his parents where out tonight. There was no way they would let him go to the snowy hills. Afterall...everyone knew whoever went to the snowy hills...never returned."
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "first_dialog_done",
+				"target_node_path": "World"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1640318827.json",
+		"name": "start"
+	}
+}

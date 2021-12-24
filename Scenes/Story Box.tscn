@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Art/snow_area_2d_background_by_andigr_ddck0jr-fullview.jpg" type="Texture" id=1]
+[ext_resource path="res://create-a-pixel-art-background-and-scenery.png" type="Texture" id=3]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 2
+emission_box_extents = Vector3( 300, 200, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 98, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Room" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 1023.0
+margin_bottom = 600.0
+rect_scale = Vector2( 1.00083, 1 )
+rect_pivot_offset = Vector2( -2088, -264 )
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ice Background" type="TextureRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( -2088, -264 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Particles2D" type="Particles2D" parent="."]
+visible = false
+position = Vector2( 656, 712 )
+scale = Vector2( 4, 4 )
+amount = 500
+process_material = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 514.675, 300 )
+zoom = Vector2( 0.98, 0.98 )

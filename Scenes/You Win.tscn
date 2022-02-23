@@ -1,26 +1,26 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Fonts/ARCADECLASSIC.TTF" type="DynamicFontData" id=1]
-[ext_resource path="res://Fonts/windows_command_prompt.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://Art/Snow-2D-Game-Tileset-Pixel-Art4.jpg" type="Texture" id=3]
-[ext_resource path="res://Scripts/Main.gd" type="Script" id=4]
+[ext_resource path="res://Scripts/You Win.gd" type="Script" id=1]
+[ext_resource path="res://Fonts/ARCADECLASSIC.TTF" type="DynamicFontData" id=2]
+[ext_resource path="res://Fonts/windows_command_prompt.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Art/Snow-2D-Game-Tileset-Pixel-Art4.jpg" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 80
 outline_size = 4
 outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 1 )
+font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=2]
 size = 90
 outline_size = 5
 outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 2 )
+font_data = ExtResource( 3 )
 
-[node name="Main" type="Control"]
+[node name="You Win" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 4 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -28,7 +28,7 @@ __meta__ = {
 [node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 expand = true
 stretch_mode = 1
 __meta__ = {
@@ -43,24 +43,20 @@ anchor_bottom = 0.5
 margin_top = 76.0
 margin_bottom = 163.0
 custom_fonts/font = SubResource( 1 )
-text = "Start"
+text = "Play again"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-anchor_left = -0.015625
-anchor_top = 0.5
-anchor_right = -0.015625
-anchor_bottom = 0.5
-margin_left = 192.0
-margin_top = -300.0
-margin_right = 892.0
-margin_bottom = -200.0
+anchor_right = 1.0
+margin_left = 250.0
+margin_right = -250.0
+margin_bottom = 88.0
 custom_fonts/normal_font = SubResource( 2 )
-text = "	The Snowy Hills"
+text = "		You Win!"
 __meta__ = {
-"_edit_use_anchors_": true
+"_edit_use_anchors_": false
 }
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

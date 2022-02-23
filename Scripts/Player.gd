@@ -11,7 +11,7 @@ onready var gift_label = $Gifts/Label
 
 func _physics_process(delta):
 	get_velocity()
-	speed_boost()
+	#speed_boost()
 	velocity = velocity * delta * speed
 	velocity = move_and_slide(velocity)
 
@@ -24,7 +24,7 @@ func get_velocity():
 
 func speed_boost():
 	if(Input.is_action_pressed("sprint")):
-		speed += 2000
+		speed += 500
 		animated_sprite.speed_scale = 3
 	else:
 		speed = 5000

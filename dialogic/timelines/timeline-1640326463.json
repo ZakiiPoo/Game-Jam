@@ -100,8 +100,14 @@
 			"event_id": "dialogic_003"
 		},
 		{
-			"change_scene": "res://Scenes/World.tscn",
-			"event_id": "dialogic_041"
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "second_dialog_done",
+				"target_node_path": "World"
+			},
+			"event_id": "dialogic_042"
 		}
 	],
 	"metadata": {

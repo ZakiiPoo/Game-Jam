@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey..."
+		},
+		{
+			"action": "join",
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Do you have my gifts yet?"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640319121.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not yet."
+		},
+		{
+			"character": "character-1640318857.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well then you better get to it..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "no_gifts_end",
+				"target_node_path": "World"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1640341757.json",
+		"name": "not all gifts"
+	}
+}
